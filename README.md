@@ -4,14 +4,15 @@
 <b>Descripcion:</b> <p>es una interfaz fácil de interactuar para conocer a los autores que deseen crear y publicar contenido en línea. La estructura básica del blog incluye páginas hacia otros articulos que muestra las últimas publicaciones, y posiblemente una página "Acerca de nosotros" que brinda información sobre los autores o el propósito del blog.</p>
 
 Novedades en la implementacion de diseño en HTML:
-- nav: 
-- section: 
-- main: 
-- footer: 
-- article:
-- aside:
+- nav: representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos
+- section: representa una sección genérica independiente de un documento, que no tiene un elemento semántico más específico para representarla
+- main: representa el contenido principal del <body> de un documento o aplicación.
+- footer: Un pie de página
+- article: representa una composición auto-contenida en un documento, una página, una aplicación o en un sitio, que se quiere que sea distribuíble y/o reutilizable de manera independiente
+- aside: representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento.
 
 detalles generales:
+//
 <body>
     <!-- contenido del documento -->
     <div class="container">
