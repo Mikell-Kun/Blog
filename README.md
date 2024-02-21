@@ -53,6 +53,7 @@ uso de main, secciones y articulos:
                 </article>
             </section>
             <!-- Seccion del documento que maneja un buscador-->
+uso de aside:
             <aside>
                 <h3>Busqueda:</h3>
                 <form>
