@@ -12,7 +12,7 @@ Novedades en la implementacion de diseño en HTML:
 - aside: representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento.
 
 detalles generales:
-//
+
 <body>
     <!-- contenido del documento -->
     <div class="container">
