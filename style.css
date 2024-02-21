@@ -1,0 +1,132 @@
+* 
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*tipografia para el documento*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*contenedor*/
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*encabezados*/
+header {
+    background: #65dd7f;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    border-bottom: 1px;
+}
+
+/*Diseño de caja flexible*/
+main {
+    display: flex;
+}
+
+/*Propiedades de la foto de perfil*/
+.profile_picture {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+footer p {
+    margin: 2em auto;
+    text-align: center;
+    background: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+section {
+    flex-basis: 70%;
+}
+
+article {
+    color: black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+/*propiedades sobre la navegacion del blog */
+nav {
+    background: black;
+    height: 50px;
+    border-bottom: 5px solid white;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*propiedades descendientes de la seccion principal*/
+article h2 {
+    margin-bottom: 20px;
+}
+
+.post_link {
+    text-decoration: none;
+}
+
+aside {
+    background: #65d4a1;
+    flex-basis: 30%;
+}
+
+aside h3 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+aside p {
+    margin: 1em 0;
+}
+
+aside form input {
+    width: 100%;
+    height: 25px;
+    margin: 0.25em 0;
+}
+
+aside form input[type="text"] {
+    height: 25px;
+}
+
+/*ancho de pantalla maxima para dispositivos con dimensiones con un maximo de 768px*/
+@media (max-width: 768px) {
+    /*encabezado responsivo en columnas centradas*/
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*tamaños y margen a considerar de foto de perfil */
+    .profile_picture {
+        height: 75px;
+        width: 75px;
+        margin-bottom: 20px;
+    }
+    /*documento responsivo mediante columnas*/
+    main {
+        flex-direction: column;
+    }
+}
