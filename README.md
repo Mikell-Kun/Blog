@@ -24,6 +24,7 @@ detalles generales:
             <h1>Miguel Cabrera</h1>
         </header>
         <!-- navegacion semi-personalizada sin funciones -->
+uso de nav:
         <nav>
             <ul>
                 <li>Principal</li>
@@ -31,6 +32,7 @@ detalles generales:
                 <li>ayuda</li>
             </ul>
         </nav>
+uso de main, secciones y articulos:
         <!-- punto de partida para el programa -->
         <main>
             <section>
@@ -59,6 +61,7 @@ detalles generales:
                 </form>
             </aside>
         </main>
+Uso de pie de pagina:
         <!-- pie de pagina -->
         <footer>
             Gabriel Miguel Cabrera Samano &copy; 2024
